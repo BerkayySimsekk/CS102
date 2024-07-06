@@ -11,6 +11,7 @@ public class ExamApplication {
         int choice;
         boolean isTaken;
 
+        @SuppressWarnings("resource")
         Scanner in = new Scanner(System.in);
 
         choice = -1;
