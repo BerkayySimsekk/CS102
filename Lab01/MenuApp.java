@@ -75,7 +75,8 @@ public class MenuApp {
     	Customer[] customers = new Customer[MAX_CUSTOMERS];
     	
     	//create Scanner to read from file
-    	Scanner inFile = new Scanner(new File(fileName));
+		File file = new File("C:\\Git\\CS102\\Lab01\\customers.txt");
+    	Scanner inFile = new Scanner(file);
     	
     	//tokens in file delimited by semi-colon
     	inFile.useDelimiter(";");
