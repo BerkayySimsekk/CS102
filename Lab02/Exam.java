@@ -81,6 +81,10 @@ public class Exam {
         completed = true;
     }
 
+    public void clearIncorrectlyAnsweredQuestionsList() {
+        incorrectlyAnsweredQuestions.clear();
+    }
+
     public void gradeExam() {
         if(completed) {
             System.out.println("Your score is: " + score + "/" + MAX_SCORE);
@@ -94,7 +98,5 @@ public class Exam {
             System.out.println(incorrectlyAnsweredQuestions.get(n).getQuestion());
             System.out.println("The correct answer was: " + incorrectlyAnsweredQuestions.get(n).getCorrectAnswer());
         }
-
-        incorrectlyAnsweredQuestions.clear();
     }
 }

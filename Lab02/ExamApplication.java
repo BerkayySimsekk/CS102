@@ -23,6 +23,7 @@ public class ExamApplication {
 
             if(isTaken && choice == 1) {
                 exam.setCompleted(false);
+                exam.clearIncorrectlyAnsweredQuestionsList();
             }
 
             if(!exam.getCompleted() && choice == 1) {
