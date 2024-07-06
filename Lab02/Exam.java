@@ -39,6 +39,7 @@ public class Exam {
     }
 
     public void takeExam() {
+        @SuppressWarnings("resource")
         Scanner in = new Scanner(System.in);
 
         System.out.println("Questions: ");
