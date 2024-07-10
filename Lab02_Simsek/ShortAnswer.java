@@ -1,3 +1,5 @@
+package Lab02_Simsek;
+
 public class ShortAnswer extends Question {
     private String[] keywords;
 

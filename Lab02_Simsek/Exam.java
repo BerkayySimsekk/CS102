@@ -1,3 +1,5 @@
+package Lab02_Simsek;
+
 import java.util.ArrayList;
 import java.util.Scanner;
 
@@ -18,7 +20,7 @@ public class Exam {
         String[] keywords = {"variable", "class", "object"};
         Question q1 = new Question("An array the same as an ArrayList (true/false)", "false");
         MultipleChoice m1 = new MultipleChoice("a. Because of single inheritance, Mammal can have no subclasses.\nb. Because of single inheritance, Mammal can have no other parent than Animal.\n c. Because of single inheritance, Animal can have only one subclass. ", "A class Animal has a subclass Mammal. Which of the following is true:", "b");
-        ShortAnswer s1 = new ShortAnswer(keywords, "What is a static data member?", "A variable that belong to the class and not the object");
+        ShortAnswer s1 = new ShortAnswer(keywords, "A variable that belong to the class and not the object", "What is a static data member?");
         exam.add(q1); exam.add(m1); exam.add(s1);
     }
 

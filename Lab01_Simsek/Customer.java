@@ -1,3 +1,5 @@
+package Lab01_Simsek;
+
 /**
  * @(#)Customer.java
  *

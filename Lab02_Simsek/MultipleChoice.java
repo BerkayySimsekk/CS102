@@ -1,3 +1,5 @@
+package Lab02_Simsek;
+
 public class MultipleChoice extends Question {
     private String choices;
 

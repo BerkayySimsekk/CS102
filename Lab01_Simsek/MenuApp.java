@@ -1,3 +1,5 @@
+package Lab01_Simsek;
+
 /**
  * @(#)MenuApp.java
  * @author CS102
@@ -75,7 +77,7 @@ public class MenuApp {
     	Customer[] customers = new Customer[MAX_CUSTOMERS];
     	
     	//create Scanner to read from file
-		File file = new File("C:\\Git\\CS102\\Lab01\\customers.txt");
+		File file = new File("C:\\Git\\CS102\\Lab01_Simsek\\customers.txt");
     	Scanner inFile = new Scanner(file);
     	
     	//tokens in file delimited by semi-colon

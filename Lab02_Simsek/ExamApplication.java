@@ -1,3 +1,5 @@
+package Lab02_Simsek;
+
 import java.util.Scanner;
 
 public class ExamApplication {

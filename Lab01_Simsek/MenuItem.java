@@ -1,3 +1,4 @@
+package Lab01_Simsek;
 
 public class MenuItem {
 	private String itemName;

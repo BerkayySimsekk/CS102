@@ -1,3 +1,5 @@
+package Lab01_Simsek;
+
 import java.util.*;
 
 public class FoodOrder {
