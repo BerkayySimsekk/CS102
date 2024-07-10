@@ -6,10 +6,12 @@ public class Memory extends CardGame {
 	private Card secondCard;
 	private Card[][] memoryDeck;
 	private int guesses;
+	private int matchFound;
 
 	public static final int MAX_GUESSES = 52;
 	
 	public Memory(){
+		matchFound = 0;
 		guesses = 0;
 		memoryDeck = new Card[4][13];
 		int row = 0;
@@ -83,6 +85,7 @@ public class Memory extends CardGame {
 
 			//check for match
 			if(isMatch()) {
+				matchFound++;
 				System.out.println("Match found!");
 			}
 			else {
@@ -90,7 +93,7 @@ public class Memory extends CardGame {
 			}
 
 		}
-		while(guesses < MAX_GUESSES);
+		while(guesses < MAX_GUESSES && matchFound != MAX_GUESSES / 2);
 		
 		if(win()) {
 			System.out.println("You won!");
