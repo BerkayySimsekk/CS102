@@ -1,8 +1,6 @@
 package Card_Game;
 
-import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.Set;
 
 // ScoreCard - Maintains one integer score per player, for any number of players
 //             Caution: invalid playernumbers result in run-time exception!

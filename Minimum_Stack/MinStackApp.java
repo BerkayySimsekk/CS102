@@ -1,4 +1,4 @@
-package MinStack;
+package Minimum_Stack;
 
 public class MinStackApp {
     public static void main(String[] args) {

@@ -1,8 +1,5 @@
 package Card_Game;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-
 // Cardgame
 // author:
 // date:

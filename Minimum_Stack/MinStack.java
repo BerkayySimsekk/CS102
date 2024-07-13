@@ -1,4 +1,4 @@
-package MinStack;
+package Minimum_Stack;
 
 import java.util.*;
 
