@@ -60,9 +60,9 @@ public class CatalogGUI extends JFrame {
 
         english.setSelected(true);
 
-        //ButtonGroup group = new ButtonGroup();
-		//group.add(english);
-		//group.add(turkish);
+        ButtonGroup group = new ButtonGroup();
+		group.add(english);
+		group.add(turkish);
 
         english.addActionListener(new EnglishListener());
         turkish.addActionListener(new TurkishListener());

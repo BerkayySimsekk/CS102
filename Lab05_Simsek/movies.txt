@@ -1,0 +1,20 @@
+Parasite,Drama,2021,2.02
+Inside Out 2,Animation,2024,1.36
+Oppenheimer,Action,2023,3
+Nomadland,Drama,2020,1.47
+Banshees of Inisherin,Comedy,2022,2.49
+The Lost Daughter,Drama,2021,2.1
+Turning Red,Animation,2022,1.28
+Little Fish,Romance,2021,2.16
+Aftersun,Drama,2022,1.42
+Minari,Drama,2020,1.55
+Spider Man: No Way Home,Action,2021,2.28
+Sound of Metal,Drama,2021,2
+All of us Strangers,Romance,2023,1.35
+JoJo Rabbit,Comedy,2022,1.48
+Top Gun: Maverick,Action,2022,2.14
+Don't Look Up,Comedy,2021,2.10
+Dune: Part Two,Action,2024,2.45
+Eternal Beauty,Comedy,2020,1.35
+Anatomy of a Fall,Drama,2023,2.32
+Encanto,Animation,2021,1.49
