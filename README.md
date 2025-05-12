@@ -13,7 +13,7 @@ Repository includes my solutions for the course Algorithms and Programming II ho
 ## Lab Assignments
 
 - `Lab 1` : Classes and Objects
-     - `Contents` : Reading a text file that includes customer information, Arrays, ArrayLists, application that provides various methods for modifying and displaying methods for the food order of the customer.
+     - `Contents` : Reading a text file that includes customer information, Arrays, ArrayLists, application that provides various methods for modifying, and displaying methods for the food order of the customer.
 - `Lab 2` : Classes and Objects
      - `Contents` : Inheritance, polymorphism, application that provides a menu allowing to take the exam, grade the exam, display the mistakes and quit with set of classes that have variety of "has-a" and "is-a" 
                   relationships with each other.
